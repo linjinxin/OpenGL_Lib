@@ -5,7 +5,7 @@
   <PropertyGroup />
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>$(OPENGL_ROOT)\SFML-2.5.1\include;$(OPENGL_ROOT)\glew-lib\include;$(OPENGL_ROOT)\assimp3.3.1\include;$(OPENGL_ROOT)\glm;$(OPENGL_ROOT)\stbi;$(OPENGL_ROOT)\soil-lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(OPENGL_ROOT)\SFML-2.5.1\include;$(OPENGL_ROOT)\glew-lib\include;$(OPENGL_ROOT)\assimp3.3.1\include;$(OPENGL_ROOT)\glm;$(OPENGL_ROOT)\stbi;$(OPENGL_ROOT)\soil-lib\include;$(OPENGL_ROOT);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup>
